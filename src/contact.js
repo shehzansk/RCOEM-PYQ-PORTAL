@@ -4,7 +4,7 @@ function Contact() {
 
   const handleSubmit = (event) => {
     event.preventDefault(); 
-    alert('File Uploaded submitted!');
+    alert('Form Uploaded submitted!');
   }
 
   return (

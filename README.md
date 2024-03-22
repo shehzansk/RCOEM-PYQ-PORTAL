@@ -32,7 +32,7 @@ You can access the website [here](https://rcoem-pyq-portal.onrender.com/).
 ## Screenshots
 
 ![Screenshot 1](Screenshots/S1.png)
-![Screenshot 2](Screenshots/S2.png)
+![Screenshot 2](Screenshots/S2.jpg)
 
 ## Contribution
 If you find any issues or have suggestions for improvements, feel free to contribute to the project by submitting a pull request or opening an issue on GitHub.

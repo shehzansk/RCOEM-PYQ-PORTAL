@@ -26,6 +26,14 @@ To use this application, follow these simple steps:
 ## Benefits
 Using this application can save students valuable time by eliminating the need to manually search and download past year questions. It streamlines the process, allowing students to focus more on their studies rather than spending time on administrative tasks.
 
+## Website
+You can access the website [here](https://rcoem-pyq-portal.onrender.com/).
+
+## Screenshots
+
+![Screenshot 1](Screenshots/S1.png)
+![Screenshot 2](Screenshots/S2.png)
+
 ## Contribution
 If you find any issues or have suggestions for improvements, feel free to contribute to the project by submitting a pull request or opening an issue on GitHub.
 

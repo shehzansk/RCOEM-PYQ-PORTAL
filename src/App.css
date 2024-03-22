@@ -6,14 +6,15 @@
 
 #mainBody {
   position: fixed;
-  top: 0;
+  top: 75px;
   left: 0;
   width: 100%;
   height: 100%;
+  
 }
 
 body {
-	background: linear-gradient(45deg, #00bcd4, #95ebf7, #23a6d5, #23d5ab);
+  background: linear-gradient(45deg, #ff8c00, #ffc73b, #c0cefa, #ffc73b, #ff8c00);
 	background-size: 400% 400%;
 	animation: shimmer 10s ease infinite;
 	height: 100vh;
@@ -31,13 +32,27 @@ body {
 	}
 }
 
-h1{
+h1,h3{
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 35px;
 }
+h3{
+  font-size: 15px;
+}
+hr{
 
+  color: #f79595;
+}
+a{
+  color: rgb(13, 0, 255);
+  text-decoration: underline;
+}
+#headLink{
+  color: #000000;
+  text-decoration: none;
+}
 button {
   padding: 10px 20px;
   background-color: #007bff;
@@ -67,15 +82,6 @@ select {
   font-size: 14px;
   outline: none;
 }
-select option {
-  background-color: #ffaeae;
-  color: #333;
-  padding: 8px 12px;
-}
-
-select option:hover {
-  background-color: #f0f0f0;
-}
 
 
 #selectBox {
@@ -83,11 +89,11 @@ select option:hover {
   flex-direction: column;
   align-items: center;
   background-color: rgba(244, 174, 174, 0.386);
-  padding: 30px 0 30px 0;
+  padding: 40px 0;
   width: 350px;
   margin: 0 auto;
-  margin-top: 50px;
   border-radius: 15px;
+  overflow: hidden;
 }
 
 @keyframes fadeIn {
@@ -111,5 +117,46 @@ select, button {
   margin-bottom: -4px;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+#headerContent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+#headerContent{
+  margin-bottom: 30px;
+}
+#headerContent h2{
+  display: none;
+}
+#footerContent{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+} 
+#footerContent.a{
+  color: #000000;
+  text-decoration: underline;
+}
 
 
+
+@media (max-width: 550px) {
+  header h1{
+    display: none;
+  }
+  #headerContent{
+    margin: auto;
+  }
+
+  #headerContent h2{
+    display: block;
+  }
+
+}

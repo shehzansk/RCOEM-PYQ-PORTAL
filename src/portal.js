@@ -11,7 +11,7 @@ function Portal() {
   const branchData = {
     "be": {
       "cse": ["Operating System", "Design and Analysis", "Software Engineering"],
-      // Add all remaining subjects here !!!
+      // I have to add all remaining subjects here !!!
     }
   };
 

@@ -17,7 +17,7 @@ body {
   background: linear-gradient(45deg, #ff8c00, #ffc73b, #c0cefa, #ffc73b, #ff8c00);
 	background-size: 400% 400%;
 	animation: shimmer 10s ease infinite;
-	height: 100vh;
+	height: 90vh;
 }
 
 @keyframes shimmer {

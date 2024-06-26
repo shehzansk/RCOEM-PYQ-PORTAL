@@ -32,7 +32,7 @@ You can access the website [here](https://rcoem-pyq-portal.onrender.com/).
 ## Screenshots
 
 ![Screenshot 1](Screenshots/S1.png) <br>
-<img src="Screenshots/S2.png" height="65%" width="25%" align="center">
+<img src="Screenshots/S2.png" height="65%" width="25%">
 
 
 ## Contribution
